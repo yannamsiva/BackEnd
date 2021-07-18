@@ -24,5 +24,9 @@ public class SsnValidationsRestController {
 		return response;
 	}
 	
-	
+@GetMapping("/welcome")
+	public String getWelcome()
+	{
+		return "Welcome Boss";
+	}
 }
